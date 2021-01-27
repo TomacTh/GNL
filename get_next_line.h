@@ -6,7 +6,7 @@
 /*   By: tcharvet <tcharvet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/25 16:34:08 by tcharvet          #+#    #+#             */
-/*   Updated: 2021/01/26 14:06:02 by tcharvet         ###   ########.fr       */
+/*   Updated: 2021/01/27 20:41:17 by tcharvet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ size_t		ft_strlen(const char *str);
 char		*ft_strchr(char *str);
 char		*ft_strjoin(char const *s1, char const *s2);
 char		*ft_strdup(const char *s1);
-int			update_remainder(char *str, char **remainder);
+int			update_remainder(char *str, char **remainder, char *buff);
 int			ft_remainder(char **remainder, char **str, char *nextline);
 int			protect_malloc_and_free(char *str);
 int			read_loop(char **line, char **remainder, int fd, char *nextline);
